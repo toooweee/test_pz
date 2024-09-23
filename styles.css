@@ -1,0 +1,297 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid black;
+  height: 120px;
+  width: 1400px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  height: 70px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1350px;
+  gap: 85px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.go-back {
+  padding: 15px 44px;
+  background-color: rgba(251, 75, 77, 1);
+  color: white;
+}
+
+.clone {
+  padding: 15px 44px;
+  background-color: rgba(251, 75, 77, 1);
+  color: white;
+}
+
+/*  */
+
+main {
+  width: 1400px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* Section I left side */
+
+.home-left-side {
+  border-right: 1px solid;
+}
+
+svg {
+  display: block;
+}
+
+.home {
+  border: 1px solid;
+  border-top: none;
+  display: flex;
+  width: 1400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.arab-image {
+}
+
+.arab-svg {
+}
+
+.prokrutka {
+  width: 697px;
+  height: 78px;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid;
+}
+
+.scroll-content {
+  display: flex;
+  align-items: center;
+  animation: scroll-horizontal 5s linear infinite;
+  gap: 10px;
+}
+
+.scroll-content p {
+  font-size: 17px;
+}
+
+@keyframes scroll-horizontal {
+  from {
+    transform: translateX(200%); /* Начало с правого края */
+  }
+  to {
+    transform: translateX(-100%); /* Прокрутка до левого края */
+  }
+}
+
+.sauce-image {
+  border-top: 1px solid;
+  border-left: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sauce-image img {
+  margin: 20px;
+}
+
+/* SECTION I RIGHT SIDE */
+
+.home-right-side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.h1-txt {
+  height: 233px;
+  width: 740px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1-txt h1 {
+  margin: 0;
+  padding: 20px 100px;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 65px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.sauce-hand-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid;
+  margin: 0;
+  padding: 0;
+}
+
+.sauce-hand-image img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/* РЕКЛАМА */
+.throw-java {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  padding: 60px;
+}
+
+.throw-java h2 {
+  font-weight: 400;
+  font-size: 65px;
+  margin: 0;
+  text-align: center;
+  flex: 1;
+}
+
+.scorpio.left {
+  margin-right: 20px;
+}
+
+.scorpio.right {
+  margin-left: 20px;
+}
+
+/* PIVO CUPPP */
+
+.pivo-cup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 22px;
+  border: 1px solid;
+}
+
+.scroll {
+  width: auto;
+  height: 78px;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  gap: 50px;
+}
+
+.scroll-content-second {
+  display: flex;
+  align-items: center;
+  animation: scroll-horizontal 5s linear infinite;
+  gap: 10px;
+}
+
+.scroll-content-second p {
+  font-size: 17px;
+}
+
+@keyframes scroll-horizontal {
+  from {
+    transform: translateX(200%); /* Начало с правого края */
+  }
+  to {
+    transform: translateX(-100%); /* Прокрутка до левого края */
+  }
+}
+
+/* STORY */
+
+.story {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.story-left,
+.story-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.story-left {
+  align-items: flex-start;
+}
+
+.story-right {
+  align-items: flex-end;
+}
+
+.story-title {
+  margin: 0 0 auto;
+  padding: 50px 80px;
+  font-weight: 400;
+  font-size: 58px;
+}
+
+.story-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.story-left {
+  width: 100%;
+  border: 1px solid;
+}
